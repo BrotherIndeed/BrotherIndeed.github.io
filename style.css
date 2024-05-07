@@ -14,7 +14,7 @@ html,body{
     overflow: hidden;
 }
 #page{
-    /*background-image: url("image.webp"); */
+    background-image: url("image.webp");
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background */
     background-repeat: no-repeat; /* Do not repeat the background */
@@ -51,15 +51,16 @@ canvas{
 #loop{
     display: flex;
     position: absolute;
-    top: 30%;
-    height: 25%;
+    top: 10%;
+    height: 15%;
     width: 100%;
-    font-size: 100px;
+    font-size: 50px;
     white-space: nowrap;
     font-family: gilroy;
 }
 #loop>h1{
-    background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
+    z-index: 99;
+    background-color: rgba(103, 148, 97, 0.288); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
     animation-name: anim;
@@ -68,6 +69,7 @@ canvas{
     animation-iteration-count: infinite;
 }
 #loop>h1>span{
+    z-index: 99;
     -webkit-text-stroke: 1.2px #000;
     color: transparent;
     font-weight: 500;
@@ -104,17 +106,22 @@ canvas{
     background-color: #000;
     color: #fff;
     border: none;
+    font-weight: 400;
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 22px;
 }
-#page>h3{
-    background-color: rgba(0, 0, 0, 0.5); /* Grey translucent background */
+#page>h3 {
+    z-index: 99;
+    background-color: rgba(161, 154, 154, 1); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
     position: absolute;
-    top: 55%;
+    top: 58%;
     font-family: gilroy;
-    font-weight: 400;
-    color: #ffffff;
-    left: 5%;
+    color: #020201;
+    left: 3%;
+    border: 10px solid black; /* Add a black border */
 }
 #page>h4{
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
