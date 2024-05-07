@@ -113,7 +113,7 @@ canvas{
 }
 #page>h3 {
     z-index: 99;
-    background-color: rgba(161, 154, 154, 1); /* Grey translucent background */
+    background-color: rgba(120, 139, 117, 0.712); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
     position: absolute;
