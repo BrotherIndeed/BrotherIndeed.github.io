@@ -14,7 +14,7 @@ html,body{
     overflow: hidden;
 }
 #page{
-    background-image: url("image.webp"); 
+    /*background-image: url("image.webp"); */
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background */
     background-repeat: no-repeat; /* Do not repeat the background */
