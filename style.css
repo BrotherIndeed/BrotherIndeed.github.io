@@ -113,13 +113,15 @@ canvas{
 }
 #page>h3 {
     z-index: 99;
-    background-color: rgba(120, 139, 117, 0.712); /* Grey translucent background */
+    background-color: rgba(187, 197, 185, 0.747); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
+
+    font-size: 24px;
     position: absolute;
     top: 58%;
     font-family: gilroy;
-    color: #020201;
+    color: #000000;
     left: 3%;
     border: 10px solid black; /* Add a black border */
 }
@@ -139,9 +141,10 @@ canvas{
     font-weight: 400;
     position: absolute;
     top: 30%;
-    left: 10%;
+    left: 3%;
 }
 #page1>#right-text>h3{
+    font-size: 30px;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
@@ -158,7 +161,7 @@ canvas{
 #page1>#left-text{
     position: absolute;
     top: 50%;
-    right: 10%;
+    right: 3%;
     text-align: end;
 }
 #page1>#left-text>h1{
@@ -169,6 +172,7 @@ canvas{
     line-height: 1.5;
 }
 #page1>#left-text>h3{
+    font-size: 30px;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
@@ -178,14 +182,16 @@ canvas{
 #page2>#text1{
     position: absolute;
     top: 30%;
-    left: 10%;
+    left: 6%;
 }
 #page2>#text1>h3{
+    font-size: 30px;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
     color: #7c7c7c;
     font-weight: 400;
+    right: 6%;
 }
 #page2>#text1>h1{
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
@@ -195,12 +201,13 @@ canvas{
     line-height: 1.5;
 }
 #page2>#text2{
+    font-size: 30px;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
     position: absolute;
     top: 55%;
-    right: 10%;
+    right: 3%;
     text-align: end;
 }
 #page2>#text2>p{
