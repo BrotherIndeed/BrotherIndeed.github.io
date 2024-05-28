@@ -44,7 +44,7 @@ html,body{
 }
 canvas{
     position: relative;
-    z-index: 9;
+    z-index: 7;
     max-width: 100vw;
     max-height: 100vh;
 }
@@ -126,6 +126,7 @@ canvas{
     border: 10px solid black; /* Add a black border */
 }
 #page>h4{
+    z-index: 99;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
@@ -136,6 +137,7 @@ canvas{
     font-weight: 500;
 }
 #page1>#right-text{
+    z-index: 99;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
@@ -144,6 +146,7 @@ canvas{
     left: 3%;
 }
 #page1>#right-text>h3{
+    z-index: 99;
     font-size: 30px;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
@@ -152,6 +155,7 @@ canvas{
     color: #7c7c7c;
 }
 #page1>#right-text>h1{
+    z-index: 9;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
@@ -159,12 +163,14 @@ canvas{
     font-size: 50px;
 }
 #page1>#left-text{
+    z-index: 99;
     position: absolute;
     top: 50%;
     right: 3%;
     text-align: end;
 }
 #page1>#left-text>h1{
+    z-index: 99;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
     font-weight: 400;
@@ -172,6 +178,7 @@ canvas{
     line-height: 1.5;
 }
 #page1>#left-text>h3{
+    z-index: 99;
     font-size: 30px;
     background-color: rgba(o, 0, 0, 0.3); /* Grey translucent background */
     padding: 20px; /* Adjust padding as needed */
